@@ -1,7 +1,7 @@
 {
   "id": "./",
-  "name": "TraderSwift Wallet",
-  "short_name": "TraderSwift",
+  "name": "Solve, by TraderSwift",
+  "short_name": "Solve",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
