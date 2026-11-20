@@ -1,6 +1,6 @@
 const cachePrefix = 'traderswift-wallet:' + self.registration.scope + ':';
-const cacheName = cachePrefix + '0f21738fa35d6f23';
-const assets = [{"name":"app.34bd062939d44ed6.js","integrity":"sha256-NL0GKTnUTtZ4FmXQ4vmOI2F0GO3W5cfY82x3EymlvGs="},{"name":"app.7d2a49d4abadaef3.css","integrity":"sha256-fSpJ1KutrvOeBYSHWY/QcFmVQ3rJW6gPSKDz2frZ+/Q="},{"name":"approval.html","integrity":"sha256-g9carmA1gVaErcNiYOOfLaYlcLcBsNx6s1vCutdGcJw="},{"name":"charts.html","integrity":"sha256-1h3RYbXEWBM0zaMlzxLQzVKNfCOscIWzeittEsimioQ="},{"name":"frame-guard.4831d1f5ddee1642.js","integrity":"sha256-SDHR9d3uFkIbovCyOY0tVZxZxyp4+VUDyLY3PaFtxhA="},{"name":"icon-192.png","integrity":"sha256-UjKT4JSgUFWNkhVosUoxMjxlMCfD20QD76rAmICwMiI="},{"name":"icon-512.png","integrity":"sha256-qp9GAptW3f3nwNnpXhgJztoD5usxCf2oAGuCQwI3UhA="},{"name":"icon.svg","integrity":"sha256-d2eRWj8OldZrikS3oA51rFjHA8aHls4kx8HNBp8+I5g="},{"name":"index.html","integrity":"sha256-lb1gjB235P1WVtHjqVY+E9ZMejOMRR/RAbJXbOK34KI="},{"name":"manifest.webmanifest","integrity":"sha256-W3Lio0oTvCSK8/o222ins50VmDH/7r0iNJ1TNNmcNP4="},{"name":"signals.html","integrity":"sha256-3ZOy8PcOGSupW0mLWO4FIa8M05/86nKk+Vmo5aHNzKY="},{"name":"solve.html","integrity":"sha256-az0NQoXwDWsSEr9MySPe7I5IsFb7nv+/ay/e/UV0d8I="}];
+const cacheName = cachePrefix + '4bc4d8ab63dc655a';
+const assets = [{"name":"app.26730a5cd3e257e2.js","integrity":"sha256-JnMKXNPiV+IKeN0DmeXJ+ktgkB7vb+orDg2LbpUmhuo="},{"name":"app.7d2a49d4abadaef3.css","integrity":"sha256-fSpJ1KutrvOeBYSHWY/QcFmVQ3rJW6gPSKDz2frZ+/Q="},{"name":"approval.html","integrity":"sha256-7vMPGEEjdrlXHtYQbsQe0nqcG0MxHRtZGz8PlgIwlzk="},{"name":"charts.html","integrity":"sha256-7pyRrf8FqnuYc4MZM/Hxpz6mM6Y2+j2eqhXfJ4KIEXw="},{"name":"frame-guard.4831d1f5ddee1642.js","integrity":"sha256-SDHR9d3uFkIbovCyOY0tVZxZxyp4+VUDyLY3PaFtxhA="},{"name":"icon-192.png","integrity":"sha256-UjKT4JSgUFWNkhVosUoxMjxlMCfD20QD76rAmICwMiI="},{"name":"icon-512.png","integrity":"sha256-qp9GAptW3f3nwNnpXhgJztoD5usxCf2oAGuCQwI3UhA="},{"name":"icon.svg","integrity":"sha256-d2eRWj8OldZrikS3oA51rFjHA8aHls4kx8HNBp8+I5g="},{"name":"index.html","integrity":"sha256-cpABFhjVVt/Ylju4nHNeCQwuWluoJPrHgKg+wa4ZCoI="},{"name":"manifest.webmanifest","integrity":"sha256-W3Lio0oTvCSK8/o222ins50VmDH/7r0iNJ1TNNmcNP4="},{"name":"signals.html","integrity":"sha256-Im0tHaZGjbCaXfZ1YfOBhTwya78JjTpIhWiQk0FzJzA="},{"name":"solve.html","integrity":"sha256-F7C2PzRfYKanWo4ege1A6NGYhDrPTee2xwD2uCzqRNU="}];
 const assetUrls = new Map(assets.map(asset => [new URL(asset.name, self.registration.scope).href, asset]));
 async function verified(response, asset) {
   if (!response.ok || response.redirected || response.type === 'opaque') throw new Error('Offline asset unavailable');
@@ -34,7 +34,7 @@ self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url);
   if (url.href === new URL('wallet-build-version', self.registration.scope).href) {
-    event.respondWith(Promise.resolve(new Response('0f21738fa35d6f23', { headers: { 'Cache-Control': 'no-store' } })));
+    event.respondWith(Promise.resolve(new Response('4bc4d8ab63dc655a', { headers: { 'Cache-Control': 'no-store' } })));
     return;
   }
   if (url.href === self.registration.scope) url.pathname += 'index.html';
