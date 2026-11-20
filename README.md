@@ -1,23 +1,23 @@
 # Solve, by TraderSwift
 
-The published static build of Solve, by TraderSwift, release `wallet-2026-11-21b`, served at https://wallet.traderswift.io.
+The published static build of Solve, by TraderSwift, release `wallet-2026-11-21c`, served at https://wallet.traderswift.io.
 
 Licensed under the Apache License, Version 2.0 (LICENSE). Third-party packages in the build and their licences are listed in NOTICE.
 
 Every file here except README.md, LICENSE, NOTICE, CNAME and .nojekyll is a build output. To check a file, compare its SHA-256 with the list below.
 
 ```
-1055f3c94bb1e0b90f052c05c105dbe2a5516ab0beba59cfd5ae0b91d87beba1  app.1055f3c94bb1e0b9.css
-dabbacdc2541004444a40e57d35bb45ab9e57e552c605df3d7f6be4cee6c717d  app.dabbacdc25410044.js
-d2221a6b8cea34b20a1070aab214efb89dcbad9c183f4b4dd10fa587ab201637  approval.html
-774739e9f887a560ca95217ab1056f5899eb0fd32242671a4743abed8f829dc3  charts.html
+23f83ed5ac07d68d61d9f3ce0faa4d4159a1879a10792fe2a7636e3292b4e382  app.23f83ed5ac07d68d.js
+b8756bf597ef9782f6a6cf1d41263e2d8b885bb0abfd3f9c657839a6c61e12ab  app.b8756bf597ef9782.css
+adcd538c46e6451c33d30aa0446bc83459410a1baa113f43572c1ac33ff721fd  approval.html
+63971c5899d01582594fda58109bfa3627bb6fd6e0c2c098fc772ac6632b61af  charts.html
 4831d1f5ddee16421ba2f0b2398d2d559c59c72a78f95503c8b6373da16dc610  frame-guard.4831d1f5ddee1642.js
 523293e094a050558d921568b14a31323c653027c3db4403efaac09880b03222  icon-192.png
 aa9f46029b56ddfde7c0d9e95e1809ceda03e6eb3109fda8006b824302375210  icon-512.png
 0b37b1e71776504dfbcfbffe17c16b1b7d10eb82fd2a34e201c1e26a1864a2a5  icon.svg
-c5b354a114282b482b55679fc85161772249859b42a105f1075def599953e7cb  index.html
+8feb158d6d5e373e8edd683581203c53511c423fb26431f3fcd0d6577f5e1b6e  index.html
 b618a6e1df4c861305f41b544d78933c899b7d10ee487f6534f160ef11cd7fa6  manifest.webmanifest
-65804e247c42876fea040e93330743efcb952dbbce57637a9d84db6c8e1949ab  signals.html
-699041bcd9cdeb5e97d6ff7fde9a6389a0db0c923fdbdaf0ab9ac1aa4dfe6792  solve.html
-3d088362b223fdfaf1ca701d0b1bf1d63950d7a363e8320619fe98390b454934  sw.js
+1260b6f106a589397b9251237467b0b03a51657caf3ef85dc524cc8985a67e02  signals.html
+0fdf8fb3611feee204fe5f4c53c0fa0a0f63c49f16b8217a478cc02eb7fd8a6f  solve.html
+fbe4dd4a7be1ff49b300adb0a199d36db5199af0c2a2a2a90b28f2986a4cfe22  sw.js
 ```
