@@ -430,6 +430,7 @@ h1[tabindex]:focus { outline: none; }
   overflow-wrap: anywhere;
   white-space: normal;
 }
+.chain-section, .chain-grant { min-width: var(--zero); overflow-wrap: anywhere; }
 
 :root:not([data-skin]), :root[data-skin="glass"] { 
   color-scheme: dark;
